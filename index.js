@@ -27,6 +27,6 @@ function totalRevenue(drivers) {
   drivers.reduce(revenueAdder);
 }
 
-const revenueAdder = function (total, current) {
-  total += driver.revenue
+const revenueAdder = function (agg, el) {
+  total += el.revenue;
 }

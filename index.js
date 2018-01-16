@@ -4,5 +4,5 @@ function logDriverNames(drivers) {
 }
 
 function logDriversByHometown(drivers, location) {
-  drivers.filter(drives => return drivers.location === location)
+  drivers.filter(driver => return drivers.location === location)
 }

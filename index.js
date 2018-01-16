@@ -1,5 +1,5 @@
 // Code your solution in this file!
-const logDriverNames =  function (drivers) {
+function logDriverNames(drivers) {
   drivers.map(driver => console.log(driver.name))
 }
 

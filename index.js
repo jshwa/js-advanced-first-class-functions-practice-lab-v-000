@@ -1,11 +1,10 @@
 // Code your solution in this file!
-function logDriverNames(drivers) {
+const logDriverNames =  function (drivers) {
   drivers.map(driver => console.log(driver.name))
 }
 
 function logDriversByHometown(drivers, location) {
-  const new_drivers = return drivers.filter(function (driver) {
+  return drivers.filter(function (driver) {
     return drivers.location === location
   })
-
 }

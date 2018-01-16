@@ -23,3 +23,10 @@ const nameSorter = function (driver1, driver2) {
   return driver1.name.localeCompare(driver2.name);
 }
 
+function totalRevenue(drivers) {
+  drivers.reduce(revenueAdder);
+}
+
+const revenueAdder = function (total, current) {
+  total += driver.revenue
+}

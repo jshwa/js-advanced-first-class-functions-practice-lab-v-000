@@ -14,3 +14,11 @@ function driversByRevenue(drivers) {
 const revenueSorter = function (driver1, driver2) {
   return driver1.revenue - driver2.revenue;
 };
+
+function driversByName(drivers) {
+  return drivers.slice().sort(nameSorter);
+}
+
+const nameSorter = function (driver1, driver2) {
+  return driver1.name.localeCompare(driver2.name)
+}

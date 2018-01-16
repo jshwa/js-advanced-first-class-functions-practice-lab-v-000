@@ -30,3 +30,7 @@ function totalRevenue(drivers) {
 const revenueAdder = function (agg, el) {
   return agg + el.revenue;
 }
+
+function averageRevenue(drivers) {
+  return totalRevenue(drivers)/drivers.length
+}

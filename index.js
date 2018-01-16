@@ -28,5 +28,5 @@ function totalRevenue(drivers) {
 }
 
 const revenueAdder = function (agg, el) {
-  total += el.revenue;
+  agg += el.revenue;
 }

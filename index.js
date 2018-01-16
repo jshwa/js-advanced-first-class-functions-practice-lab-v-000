@@ -8,7 +8,7 @@ function logDriversByHometown(drivers, hometown) {
 }
 
 function driversByRevenue(drivers) {
-  drivers.sort(revenueSorter);
+  return drivers.sort(revenueSorter);
 }
 
 const revenueSorter = function (driver1, driver2) {

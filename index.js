@@ -2,3 +2,7 @@
 function logDriverNames(drivers) {
   drivers.map(driver => console.log(driver.name))
 }
+
+function logDriversByHometown(drivers, location) {
+  drivers.filter(driver => driver.location === location)
+}

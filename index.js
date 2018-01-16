@@ -24,7 +24,7 @@ const nameSorter = function (driver1, driver2) {
 }
 
 function totalRevenue(drivers) {
-  drivers.reduce(revenueAdder, 0);
+  return drivers.reduce(revenueAdder, 0);
 }
 
 const revenueAdder = function (agg, el) {

@@ -11,6 +11,6 @@ function driversByRevenue(drivers) {
   drivers.sort(revenueSorter);
 }
 
-const revenueSorter = function (num1, num2) {
-  return num1-num2;
+const revenueSorter = function (driver1, driver2) {
+  return driver1.revenue - driver2.revenue;
 };
